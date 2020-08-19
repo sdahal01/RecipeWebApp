@@ -8,7 +8,7 @@ Contributors:
 # Eric van der Roest ericjvdr@csu.fullerton.edu
 
 
-Our project is called Recipes Galore. It is a website that uses a data base to show results of the desired search recipe. Out webpage uses Edamame API the look up the results and the whole webpage is powered by W3school for the CSS and styling.
+Our project is called Recipes Galore. It is a website that uses a data base to show results of the desired search recipe. Our webpage uses Edamame API the look up the results and the whole webpage is powered by W3school for the CSS and styling.
 
 
 In order to run the webpage follow these steps:

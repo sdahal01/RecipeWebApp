@@ -1,4 +1,4 @@
-# cpsc349webapp </br>
+# RecipeWebApp </br>
 
 Contributors:
 # Andrew Ta andrewman8798@csu.fullerton.edu </br>

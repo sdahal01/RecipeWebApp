@@ -1,0 +1,60 @@
+
+.center {
+  border-style: double;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  display: block;
+  margin: 0;
+  float: left;
+  width: auto;
+  background: #f1f1f1;
+  width: 1450px;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: auto;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.results {
+  font-size: 300%;
+  text-align: center;
+}
+.resultnum{
+
+  font-size: 150%;
+  text-align: center;
+}

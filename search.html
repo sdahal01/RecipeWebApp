@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <meta charset="utf-8">
+  <title>Search</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+
+
+<!--style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+</style-->
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="navbar">
+<form action="index.html" method="get">
+  <button type="submit" class="home-button" style="background: black; letter-spacing:4px;font-size:30px;color:white;">Recipes Galore</button>
+</form>
+
+
+    <!-- Right-sided navbar links. Hide them on small screens -->
+
+    <div class="w3-right w3-hide-small">
+      <form action="index.html" method="get">
+  <button type="submit" class="about-button" style="background: #f44336; letter-spacing:4px;font-size:30px;color:white;" >About Us</button>
+      </form>
+    </div>
+</div>
+
+<!-- Header -->
+
+<!--     The form     -->
+
+    <!-- Search bar-->
+    <!--form class="example" action="search.html"-->
+    <input type="text" id="inputid" placeholder="Search.." name= search required>
+<br>
+  <input class="check1" type="checkbox" id="filter1" name="filter1" value="&health=sugar-conscious">
+  <label for="filter1"> Sugar-Conscious</label><br>
+  <input type="checkbox" id="filter2" name="filter2" value="&health=high-protein">
+  <label for="filter2"> High Protein</label><br>
+  <input type="checkbox" id="filter3" name="filter3" value="&health=low-fat">
+  <label for="filter3"> low-fat</label><br>
+  <input type="checkbox" id="filter4" name="filter4" value="&health=low-carb">
+  <label for="filter4"> low-carb</label><br>
+  <input type="checkbox" id="filter5" name="filter5" value="&health=vegan">
+  <label for="filter5"> Vegan</label><br>
+  <input type="checkbox" id="filter6" name="filter6" value="&health=vegetarian">
+  <label for="filter6"> Vegetarian</label><br>
+  <input type="checkbox" id="filter7" name="filter7" value="&health=balanced">
+  <label for="filter7"> balanced</label><br>
+  <input type="checkbox" id="filter8" name="filter8" value="&health=peanut-free">
+  <label for="filter8"> peanut-free</label><br>
+  <input type="checkbox" id="filter9" name="filter9" value="&health=tree-nut-free">
+  <label for="filter9"> tree-nut-free</label><br>
+  <input type="checkbox" id="filter10" name="filter10" value="&health=alcohol-free">
+  <label for="filter10"> alcohol-free</label><br>
+  <button id="search"> Search </button>
+
+
+    <!--/form-->
+    <!-- end of search  bar -->
+
+
+
+	<div class="results"><p>SEARCH RESULTS</p></div>
+  <div class="resultnum" id="resultnum"> </div>
+  <div id="content"></div>
+
+
+<script src="node.js"></script>
+</body>
+
+<!-- Page content -->
+<!--div class="w3-content" style="max-width:1100px"-->
